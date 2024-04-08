@@ -1,0 +1,121 @@
+/* Styles for the entire HTML code */
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Form styles */
+  #meal-form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Containers */
+  #meal-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #meal-container img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #meal-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  #order-container {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #complete-order-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #complete-order-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Portfolio */
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
